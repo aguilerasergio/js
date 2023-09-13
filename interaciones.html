@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaciones</title>
+</head>
+<body>
+    
+    <form>
+        <p>Tabla de: <input type="text" id="numero"/><button type="button" onclick="generarTabla(numero.value)">Generar</button></p>
+    </form>
+    <table border="1" id="tabla">
+       
+    </table>
+    <form>
+        <p>Sumar del 1 al: <input type="text" id="numeroSuma"/><button type="button" onclick="sumarNumero(numeroSuma.value)">Sumar</button></p>
+        Resultado: <div id="resultado"></div>
+        <br>
+        <p>Nombre: <input type="text" id="nombre"/><button type="button" onclick="deletrearNombreIn(nombre.value)">Deletrear</button></p>
+
+        <div id="deletreo"></div>
+    </form>
+
+    <script src="iteraciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentencias</title>
+    <script src="sentencias.js"></script>
+</head>
+<body>
+    <h1>Sentencias de control</h1>
+
+    <form>
+        <p>Edad: <input type="text" id="edad"/></p>
+        <p><button type="button" id="Validar" onclick="validarEdad(edad.value)">Validar</button></p>
+        <p><label id="respuesta"></label></p>
+        <br>
+        <p>Numero 1: <input type="text"  id="numUno"></p>
+        <p>Numero 2: <input type="text"  id="numDos"></p>
+        <p>Numero 3: <input type="text"  id="numTres"></p>
+
+        <p><button type="button" id="Comparar" onclick="validarNumeros()">Comparar</button></p>
+        <p><label id="mensaje"></label></p>
+
+
+        <br>
+
+          <p>Dias: <input type="text" id="dia"/></p>
+          <p><button type="button" id="Cambiar" onclick="RespuestaDia(dia.value)">Cambiar</button></p>
+          <p><label id="resultado"></label></p>
+    </form>
+    
+</body>
+</html>
